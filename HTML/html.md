@@ -1,5 +1,5 @@
 # Theorie
-In dit document zal ik de antwoorden op de theorie vragen noteren.
+In dit document zal ik de HTML vragen beantwoorden.
 
 # HTML vragen:
 
