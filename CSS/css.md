@@ -154,11 +154,15 @@ Maak wat hieronder staat met paragraph en span tags.
 
 Wat gebeurt er als je een width en een height toevoegt aan de span tag ( &lt;span> ) van vorige opdracht?
 
+*Als je een width en height toevoegt aan de span tag, gebeurt er niks. Het is een inline element, dus de width en height kunnen niet aangepast worden. Zie opdracht2.3.html voor de uitwerking.*
+
 <br>
 
 ### **Opdracht 4**
 
 Leg uit wat de volgende termen betekenen: content, padding, margin en border.
+
+*Content staat voor de inhoud van de box. Padding staat voor de ruimte om de content heen binnen de border. Border staat voor de 'frame' om de padding heen. Margin staat voor de ruimte tussen elke border.*
 
 <br>
 
@@ -166,11 +170,15 @@ Leg uit wat de volgende termen betekenen: content, padding, margin en border.
 
 Als je ruimte wilt maken tussen de border en content, welke css property gebruik je dan? Maak een voorbeeld in je antwoord. 
 
+*De CSS property die je gebruikt om ruimte te maken tussen border en content is padding. Zie opdracht2.5.html voor het voorbeeld. In dit voorbeeld maak ik de ruimte tussen de border en content 50px.*
+
 <br>
 
 ### **Opdracht 6**
 
 Als je ruimte wilt maken tussen de border en buiten de box, welke css property gebruik je dan? Maak een voorbeeld in je antwoord.
+
+*De CSS property die je gebruikt om ruimte te maken tussen de border en buiten de box is margin. Zie opdracht 2.6.html voor het voorbeeld. In dit voorbeeld maak ik de ruimte tussen de border en buiten de box 100px.*
 
 <br>
 
@@ -180,15 +188,23 @@ Maak nu een blok met width: 100px, height: 100px, margin: 5px, padding 5px en bo
 
 1. Hoe breed is de box?
 
+*De box is 110px breed.*
+
 2. Hoe hoog is de box?
 
+*De box is 110px hoog.*
+
 3. Wat merk je op met width en height?
+
+*De width en height van de box zijn de breedte en de hoogte van de box om de content heen. Als je padding en border toevoegt, worden die opgeteld bij de width en height. Dus als je de width en height instelt op 100px, de padding op 5px en de border op 5px, dan zullen de width en height 110px zijn.*
 
 <br>
 
 ### **Opdracht 8**
 
 Welke CSS property kun je gebruiken om ervoor te zorgen dat de waarde van width en height de totale breedte en hoogte is van het blok van de voorgaande opdracht?
+
+*De CSS property die je hiervoor kan gebruiken is box-sizing. Zie opdracht2.8.html voor het voorbeeld. Met box-sizing: border-box;, zal de box width en height de totale breedte van de box zijn, ipv alleen de box van de content. Nu is de box dus wel 100px breed en hoog.*
 
 <br>
 
