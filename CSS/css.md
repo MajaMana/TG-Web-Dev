@@ -182,6 +182,14 @@ Er zijn 14 verschillende pseudo-elementen. Beschrijf ze alle 14 kort en maak voo
 
 <br>
 
+# CSS vragen hoofdstuk 6
+
+### **Opdracht 1**
+
+Bij CSS Grid wordt vaak gebruikgemaakt van een speciale lengte-eenheid: “**fr**”. Onderzoek wat deze doet en beschrijf het in je eigen woorden.
+
+<br>
+
 # CSS vragen hoofdstuk 7
 
 ### **Opdracht 1**
