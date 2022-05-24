@@ -1,7 +1,7 @@
 # Theorie
 In dit document zal ik de HTML vragen beantwoorden.
 
-# HTML vragen:
+# HTML vragen
 
 1. Wat is HTML?
 
