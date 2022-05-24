@@ -214,6 +214,20 @@ Welke CSS property kun je gebruiken om ervoor te zorgen dat de waarde van width 
 
 De belangrijkste waardes van “position” zijn static, relative, absolute, fixed & sticky. Leg voor elke uit wat ze doen.
 
+*De waarde static betekent dat het element gepositioneerd wordt volgens de normale 'flow' van het document. Toevoegen dat het element top, bottom, left of right geplaatst moet worden zal dan ook geen effect hebben. Static is namelijk de default waarde.*
+
+<br>
+
+*De waarde relative betekent dat het element gepositioneerd wordt volgens de normale 'flow' van het document, maar relative van zichzelf. De relative waarde van zichzelf is aan te passen door gebruik te maken van top, bottom, left of right. Deze positionering zal geen invloed hebben op andere elementen, dus met deze waarde kan je elementen op elkaar stapelen. De top, bottom, left of right waarde aanpassing zal dus vanaf het beginpunt van de box zijn en niet van de randen van het document.*
+
+<br>
+
+*De waarde absolute betekent dat het element niet gepositioneerd wordt volgens de normale 'flow' van het document, en geen ruimte wordt gemaakt voor het element in de pagina layout. De positie van het element is de positie van het containing element. Als er geen margin is en er geen top, bottom, left of right worden aangegeven, zal de box in het linker hoekje van de pagina staan. De positie is aan te passen door top, bottom, left of right aan te passen.*
+
+<br>
+
+*De waarde fixed betekent dat het element 
+
 <br>
 
 # CSS vragen hoofdstuk 4
