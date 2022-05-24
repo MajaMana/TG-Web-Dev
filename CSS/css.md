@@ -107,6 +107,28 @@ Zoek ook andere referenties om het concept te begrijpen.
 
 Leg in eigen woorden uit wat met cascade en inheritance wordt bedoeld. Maak voorbeelden om je antwoord uit te leggen.
 
+*CSS staat voor cascading style sheet. Door middel van cascade, worden conflicten binnen CSS opgelost. Als meerdere CSS regels gelden voor 1 HTML element, dan is cascade het algoritme wat bepaalt welke regels worden toegepast. Op deze manier worden de conflicten vermeden.*
+
+Voorbeeld:
+
+button {
+    
+    color: red
+
+}
+
+button {
+    
+    color: blue
+
+}
+
+*Het is niet mogelijk voor een element om 2 kleuren tegelijk te zijn. Dit is dus een conflict. Deze button zal de kleur blauw worden, omdat die regel onderaan staat. In het cascade algoritme staat dat de laatst toegevoegde regel toegepast zal worden. Zo wordt het conflict opgelost.*
+
+<br>
+
+*Met inheritance wordt bedoeld dat een element een CSS stijl zal krijgen van een 'voorouder' element als er niet specifiek een andere stijl aan wordt gegeven. Het gaat hier dus om stijlen die aan een eerder element zijn gegeven. Als de kleur van een < body > element blauw wordt gemaakt, zullen alle elementen binnen de body ook blauw worden als er niet specifiek een andere kleur aan de andere elementen wordt gegeven. Het voorbeeld staat in het document opdracht1.8.html.*
+
 <br>
 
 # CSS vragen hoofdstuk 2
