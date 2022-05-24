@@ -137,6 +137,10 @@ button {
 
 Wat zijn de eigenschappen van block boxes en inline boxes?
 
+*Block boxes zijn boxes die op een nieuwe regel beginnen en zo breed zijn als de beschikbare container. Hoogte en breedte properties zullen van toepassing zijn. Padding, margin en border zorgen ervoor dat andere elementen weggeduwd worden van de box.*
+
+*Inline boxes zijn boxes die niet op een nieuwe regel starten. De hoogte en breedte properties zullen niet van toepassing zijn. Verticale padding, margin en border kunnen toegepast worden, maar zullen er niet voor zorgen dat andere inline boxes worden weggeduwd. Horizontale padding, margin en border kunnen ook toegepast worden en die zullen andere inline boxes wel wegduwen.*
+
 <br>
 
 ### **Opdracht 2**
